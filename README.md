@@ -98,9 +98,9 @@ Para validar sua atividade, siga estes passos:
 4.  **Resposta Teórica:** No final deste README (ou em um arquivo separado), responda à seguinte questão:
 
 > **Pergunta:** Sendo este um sistema distribuído, quais seriam os riscos de manter o saldo em memória (InMemory) caso tivéssemos múltiplas instâncias desta API rodando simultaneamente?
- **Resposta:** Manter saldo em memória (InMemory) em um sistema distribuído com várias instâncias é arriscado porque cada instância terá seu próprio valor, causando inconsistência de dados, além de condições de corrida, perda de dados em caso de falha e problemas com balanceamento de carga.
+ 
 ---
-
+**Resposta:** Manter saldo em memória (InMemory) em um sistema distribuído com várias instâncias é arriscado porque cada instância terá seu próprio valor, causando inconsistência de dados, além de condições de corrida, perda de dados em caso de falha e problemas com balanceamento de carga.
 ## 📁 Instruções para o Aluno
 1. Faça um **Fork** deste repositório.
 2. O nome do seu repositório deve ser: `una-sdm-lista-11`.
